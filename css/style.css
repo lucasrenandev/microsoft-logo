@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f1f1f1;
+    display: grid;
+    place-content: center;
+}
+
+.microsoft {
+    width: 350px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;  
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+}
+
+.square:nth-child(1) {
+    background-color: #f35220; 
+}
+.square:nth-child(2) {
+    background-color: #82bd01; 
+}
+.square:nth-child(3) {
+    background-color: #00a7f0; 
+}
+.square:nth-child(4) {
+    background-color: #ffbb02; 
+}
